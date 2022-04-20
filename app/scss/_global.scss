@@ -6,12 +6,11 @@ body{
 body{
   display: flex;
   flex-direction: column;
-  @extend %robotocondensed-500;
-  font-size: 14px;
+  @extend %mont-400;
+  font-size: 20px;
   line-height: 1.4;
-  color: $text;
-  background-color: #eef6ff;
-  letter-spacing: 0.04em;
+  color: $white;
+  background-color: $white;
 }
 
 .main{
@@ -19,10 +18,16 @@ body{
 }
 
 a{
-  color: $text;
+  color: $white;
 }
 .container{
-  max-width: 1200px;
+  max-width: 1480px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
+}
+
+.container-bg {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
 }
